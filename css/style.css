@@ -1,0 +1,203 @@
+/*全局*/
+*{
+    font-family: "微软雅黑", Arial;
+}
+a:active, a:link, a:visited {
+    text-decoration: none;
+    color: #333;
+}
+ul li {
+    list-style-type: none;
+}
+body, html, ul {
+    padding: 0;
+    margin: 0;
+}
+a:hover{
+    color: #28a745;
+}
+body{
+    background-color: #f0f0f0;
+    line-height: 1.8;
+}
+/*导航*/
+.header{
+    height: 69px;
+    /*overflow: auto;*/
+}
+nav{
+    background-color: white!important;
+}
+a.brand-style{
+    color: #28a745!important;
+    font-size: 24px;
+    margin-right: 50px;
+    font-weight: bold;
+}
+
+nav ul li>a:hover{
+    color: #28a745!important;
+}
+
+/*正文开始*/
+/*滑动图*/
+.main-body{
+    margin-top: 15px;
+
+}
+.carousel-caption>h5{
+    font-weight: bold;
+    font-size: 30px;
+}
+.left-area{
+    padding-right: 0;
+}
+/*文章列表*/
+.post-list{
+    background-color: #ffffff;
+    padding: 0 15px 15px;
+}
+.top-news{
+    color: #28a745;
+    font-weight: 500;
+    padding: 15px 0;
+    margin: 8px 0 0;
+    font-size: 16px;
+    border-bottom: solid 1px #efefef;
+}
+.top-news span {
+    padding-bottom: 15px;
+    border-bottom: 2px solid #409EFF;
+}
+.post {
+    padding: 20px 0;
+    border-bottom: 1px solid #efefef;
+}
+.post:hover {
+    background: #fafafa;
+    transition: all .3s ease 0s;
+}
+.item-category {
+    z-index: 1;
+    position: absolute;
+    left: 26px;
+    top: 10px;
+    padding: 5px 6px;
+    font-size: 12px;
+    line-height: 1;
+    color: #fff!important;
+    background-color: #000;
+    filter: alpha(opacity=60);
+    background: rgba(0,0,0,.5);
+    border-radius: 2px;
+}
+.contentImg img {
+    height: 150px;
+    width: 100%;
+}
+.contentImg img:hover {
+    transform: scale(1.03);
+    transition: all .3s ease-out 0s;
+}
+.post-title {
+    margin: 0;
+    font-size: 18px;
+    word-break: break-all;
+    font-weight: 400;
+    line-height: 1.4;
+}
+.post-content {
+    margin: 10px 0;
+    font-size: 13px;
+    color: #666;
+    min-height: 70px;
+}
+.post-meta {
+    color: #999;
+    padding-left: 0;
+    margin-bottom: 0;
+}
+.post-meta li {
+    display: inline-block;
+    font-size: 13px;
+}
+.post-meta li.author {
+    margin-right: 20px;
+}
+.post-meta li.author span {
+    display: inline-block;
+    margin-left: 10px;
+}
+.post-meta li.author .logo img {
+    border-radius: 50%;
+    width: 22px;
+    height: 22px;
+}
+.post-meta li i {
+    font-size: 14px;
+    margin-right: 5px;
+    cursor: pointer;
+}
+/*分页*/
+.pagenation {
+    padding: 25px 0;
+    background-color: #fff;
+}
+.text-center {
+    text-align: center;
+}
+.pagenation ul li{
+    display: inline-block;
+    margin: 0 5px;
+}
+.pagenation ul li.active a {
+    color: #28a745;
+}
+
+/*右侧内容*/
+.normal-img-ads{
+    margin-bottom: 15px;
+}
+.pannel-box {
+    padding: 15px;
+    margin-bottom: 20px;
+    background: #fff;
+}
+.pannel-title {
+    margin: 0 0 10px;
+    padding: 1px 0 1px 7px;
+    font-size: 16px;
+    font-weight: 400;
+    border-left: 3px solid #28a745;
+}
+.content-list{
+    line-height: 1.2;
+}
+.hot-content-list .content-list ul li {
+    font-size: 14px;
+    padding: 0 0 .75rem 1rem;
+    position: relative;
+}
+.triangle {
+    position: absolute;
+    top: .5rem;
+    left: 0;
+    width: 0;
+    height: 0;
+    border-style: solid;
+    border-color: #fff #fff #fff #ccc;
+    transform-origin: 25% center;
+    border-width: 4px;
+}
+/*页脚*/
+#footer {
+    font-size: 14px;
+    padding: 35px 0;
+    color: #5f676f;
+    background: #2d3237;
+    text-align: center;
+    margin-top: 15px;
+}
+#footer ul li a:link, #footer ul li a:visited {
+    color: #76818c;
+}
